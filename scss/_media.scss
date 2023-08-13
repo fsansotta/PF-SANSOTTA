@@ -1,0 +1,37 @@
+@media (max-width: 768px) {
+    .manal {
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fotoManal {
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+
+    .videosArgentina,
+    .otero,
+    .crazyBlues,
+    .esclavitud,
+    .esclavitudDos,
+    .mapa,
+    .form-control {
+        max-width: 90%;
+        max-height: 80%;
+        justify-content: center;
+        align-items: center;
+        gap: 1px;
+    }
+
+    .imagenHistoria,
+    .imagenHistoriaDos {
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
