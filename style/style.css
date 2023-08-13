@@ -12,52 +12,6 @@ body {
 }
 
 
-.imagenPortada img {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-.menuNavegable {
-    background-color: rgb(33, 37, 41);
-}
-
-.nav-link {
-    color: white !important;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bolder;
-}
-
-
-.portada {
-    width: 100%;
-    height: 250px;
-}
-
-header {
-    text-align: center;
-
-}
-
-.menu li {
-    list-style: none;
-}
-
-.menu {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 60px;
-    line-height: 50px;
-    text-decoration: none;
-    background-color: darkblue;
-    width: 100%;
-}
-
-a {
-    text-decoration: none;
-    color: aliceblue;
-}
 
 .imgInicio {
     display: flex;
@@ -73,172 +27,6 @@ a {
 .imgInicio img {
     margin-right: 10px;
 }
-
-.listaVariantes {
-    margin-left: 20px;
-}
-
-h4 {
-    text-decoration: underline;
-}
-
-.varianteUno {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-
-main {
-    margin-left: 20px;
-    margin-top: 50px;
-    border-bottom: 20px;
-}
-
-.acercate {
-    margin-top: 2%;
-}
-
-.formulario {
-    text-align: center;
-}
-
-.formulario iframe {
-    margin-bottom: 100px;
-}
-
-.mapa {
-    margin-top: 45px;
-    margin-left: 10px;
-}
-
-
-main p {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-
-.esclavos {
-    width: 300px;
-    height: 300px;
-
-}
-
-
-.bluesInicio img {
-    width: 500px;
-    height: 200px;
-}
-
-.bienvenida {
-    margin-top: 45px;
-    margin-left: 10px;
-    margin-bottom: 50px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.robertJohnson {
-    width: 400px;
-    height: 300px;
-    text-align: center;
-    max-width: 100%;
-}
-
-.robertJohnsonImg {
-    text-align: center;
-}
-
-.subtituloMenu {
-    margin-top: 150px;
-    margin-left: 10px;
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 30px;
-    color: white;
-}
-
-.txt-importante:hover {
-    color: red;
-    font-weight: bold;
-}
-
-.txt-complementario:hover {
-    color: blue;
-    font-weight: bold;
-}
-
-
-.imagenHistoria {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 60px;
-}
-
-.pieDeFotos {
-    font-size: small;
-    font-style: italic;
-    text-align: center;
-}
-
-
-.esclavitud {
-    width: 400px;
-    height: 300px;
-    border-radius: 5px;
-
-}
-
-.howlinWolf {
-    display: block;
-    max-width: 100%;
-    height: 600px;
-    margin: 0 auto
-    
-}
-
-.howlinWolfImg {
-    text-align: center;
-}
-
-.parrafoDos {
-    margin-top: 90px;
-
-}
-
-.imagenHistoriaDos {
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 60px;
-
-}
-
-.esclavitudDos {
-    width: 400px;
-    height: 300px;
-    margin-right: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 10px;
-    color: black;
-
-
-}
-
-
-.crazyBlues {
-    display: grid;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-/* a:visited{
-    color: blueviolet;
-} */
 
 .card-title {
     text-align: center;
@@ -279,10 +67,167 @@ main p {
 .card-footer {
     background-color: #BEBEBE;
 }
+ 
+
+.txt-importante:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.txt-complementario:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.d-block {
+    width: 560px;
+    height: 315px;
+}
+
+
+.carouselInicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.carousel {
+    width: 560px;
+    height: 315px;
+}
+
+.carousel-caption {
+    background-color: rgba(43, 40, 40, 0.603);
+}
+
+
+.bienvenida {
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.subtituloMenu {
+    margin-top: 150px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.bluesInicio img {
+    width: 500px;
+    height: 200px;
+}
+
+/* ---------------------------------------------------------------------------------------  INDEX ------------------------------------------------------------------------------------------------------------------------------ */
 
 
 
-.manal {
+
+/* ---------------------------------------------------------------------------------------  HISTORIA DEL BLUES ------------------------------------------------------------------------------------------------------------------------------ */
+.esclavos {
+    width: 300px;
+    height: 300px;
+}
+
+.esclavitud {
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+
+}
+
+.howlinWolf {
+    display: block;
+    max-width: 100%;
+    height: 600px;
+    margin: 0 auto
+}
+
+.howlinWolfImg {
+    text-align: center;
+}
+
+.parrafoDos {
+    margin-top: 90px;
+
+}
+
+.imagenHistoriaDos {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+
+}
+
+.esclavitudDos {
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    color: black;
+}
+
+
+.imagenHistoria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.crazyBlues {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------  VARIANTES DEL BLUES ------------------------------------------------------------------------------------------------------------------------------ 
+ */
+ .listaVariantes {
+    margin-left: 20px;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.varianteUno {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.robertJohnson {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.robertJohnsonImg {
+    text-align: center;
+}
+
+/*  ---------------------------------------------------------------------------------------  BLUES ARGENTINO ------------------------------------------------------------------------------------------------------------------------------ 
+ */
+
+ .manal {
     display: flex;
     flex-direction: row-reverse;
     gap: 60px;
@@ -297,17 +242,10 @@ main p {
     width: auto;
 }
 
-
 .parrafoManal {
     font-size: small;
     font-style: italic;
 }
-
-.d-block {
-    width: 10%;
-    height: 10%;
-}
-
 
 .bluesArgentino {
     display: flex;
@@ -336,30 +274,147 @@ div iframe {
 }
 
 
-.d-block {
-    width: 560px;
-    height: 315px;
+.fotoManal {
+    margin-right: 10px;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+}
+
+
+
+/*  ---------------------------------------------------------------------------------------  CONTACTO ------------------------------------------------------------------------------------------------------------------------------ 
+ */
+
+ .acercate {
+    margin-top: 2%;
+}
+
+.formulario {
+    text-align: center;
+}
+
+.formulario iframe {
+    margin-bottom: 100px;
+}
+
+.mapa {
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------- GENERICO ----------------------------------------------------------------------------------------------------------------- */
+
+.pieDeFotos {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+}
+
+
+main {
+    margin-left: 20px;
+    margin-top: 50px;
+    border-bottom: 20px;
+}
+
+
+main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
 
 }
 
 
-.carouselInicio {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------- HEADER -------------------------------------------------------------------- */
+
+.imagenPortada img {
+    display: block;
+    width: 100%;
+    height: 200px;
+}
+
+.menuNavegable {
+    background-color: rgb(33, 37, 41);
+}
+
+.nav-link {
+    color: white !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+}
+
+
+.portada {
+    width: 100%;
+    height: 250px;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    gap: 60px;
+    line-height: 50px;
+    text-decoration: none;
+    background-color: darkblue;
+    width: 100%;
 }
 
-
-.carousel {
-    width: 560px;
-    height: 315px;
+a {
+    text-decoration: none;
+    color: aliceblue;
 }
 
-.carousel-caption {
-    background-color: rgba(43, 40, 40, 0.603);
-}
 
 .bg-dark {
     margin-top: 1px;
@@ -378,6 +433,7 @@ div iframe {
     justify-content: center;
     gap: 20px;
 }
+
 
 .imgNav {
     width: 100px;
@@ -433,16 +489,19 @@ button {
     width: auto;
 }
 
-.fotoManal {
-    margin-right: 10px;
-    border-width: 2px;
-    border-style: solid;
-    color: black;
+header {
+    text-align: center;
+
 }
 
+
+
+
+
+
+
 @media (max-width: 768px) {
-    .manal
-    {
+    .manal {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
@@ -452,18 +511,16 @@ button {
     .fotoManal {
         max-width: 300px;
         max-height: 400px;
-
     }
 
-    
+
     .videosArgentina,
     .otero,
     .crazyBlues,
     .esclavitud,
     .esclavitudDos,
     .mapa,
-    .form-control
-    {
+    .form-control {
         max-width: 90%;
         max-height: 80%;
         justify-content: center;
@@ -472,12 +529,11 @@ button {
     }
 
     .imagenHistoria,
-    .imagenHistoriaDos{
+    .imagenHistoriaDos {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
         align-items: center;
     }
-
 
 }
