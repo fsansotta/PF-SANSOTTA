@@ -1,0 +1,106 @@
+.card-title {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+}
+
+
+.imagenesInicio {
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-img-top {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px !important;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.card-body p {
+    margin-top: 20px;
+    color: white;
+}
+
+.card-body {
+    background-color: #384155;
+}
+
+.card-group {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 50%
+
+}
+
+.card-footer {
+    background-color: #BEBEBE;
+}
+
+
+.txt-importante:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.txt-complementario:hover {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.d-block {
+    width: 560px;
+    height: 315px;
+}
+
+
+.carouselInicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+.carousel {
+    width: 560px;
+    height: 315px;
+}
+
+.carousel-caption {
+    background-color: rgba(43, 40, 40, 0.603);
+}
+
+
+.bienvenida {
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.subtituloMenu {
+    margin-top: 150px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.bluesInicio img {
+    width: 500px;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}

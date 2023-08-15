@@ -1,0 +1,53 @@
+.manal {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 60px;
+
+}
+
+.manal img {
+    width: 400px;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.parrafoManal {
+    font-size: small;
+    font-style: italic;
+}
+
+.bluesArgentino {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+    width: auto;
+}
+
+.parrafoArgentina {
+    margin-top: 60px;
+}
+
+
+.otero {
+    width: 560px;
+    height: 315px;
+    border-radius: 10px;
+
+}
+
+div iframe {
+    border-radius: 10px;
+}
+
+
+.fotoManal {
+    margin-right: 10px;
+    border-width: 2px;
+    border-style: solid;
+    color: black;
+}

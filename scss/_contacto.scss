@@ -1,4 +1,20 @@
 .formulario {
+    text-align: center;
+    
+    .mb-3 {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .form-control {
+        width: auto;
+      }
+    
 
     .acercate {
         margin-top: 2%;
