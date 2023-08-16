@@ -1,14 +1,18 @@
 @media (max-width: 768px) {
-    .manal {
+    .manal 
+    {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
         align-items: center;
-    }
 
-    .fotoManal {
-        max-width: 300px;
-        max-height: 400px;
+
+        .fotoManal {
+            max-width: 300px;
+            max-height: 400px;
+    
+        }
+
     }
 
 
@@ -18,7 +22,7 @@
     .esclavitud,
     .esclavitudDos,
     .mapa,
-    .form-control 
+    .form-control
     {
         max-width: 90%;
         max-height: 80%;
@@ -28,7 +32,8 @@
     }
 
     .imagenHistoria,
-    .imagenHistoriaDos {
+    .imagenHistoriaDos 
+       {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
