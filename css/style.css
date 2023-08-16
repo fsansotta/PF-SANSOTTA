@@ -284,53 +284,50 @@ h4 {
   text-align: center;
 }
 
-.card-title {
+section .card-group {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+section .card-title {
   text-align: center;
   text-decoration: underline;
   font-weight: bold;
   color: white;
 }
-
-.imagenesInicio {
+section .imagenesInicio {
   display: flex;
   justify-content: center;
 }
-
-.card-img-top {
+section .card-img-top {
   width: 400px;
   height: 300px;
   border-radius: 10px !important;
   max-width: 100%;
   object-fit: cover;
 }
-
-.card-body p {
+section .card-body p {
   margin-top: 20px;
   color: white;
 }
-
-.card-body {
+section .card-body {
   background-color: #384155;
 }
-
-.card-group {
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 50%;
-}
-
-.card-footer {
+section .card-footer {
   background-color: #BEBEBE;
+  height: 15%;
+  max-height: 12%;
+  overflow: max-content;
 }
-
-.txt-importante:hover {
-  color: red;
-  font-weight: bold;
-}
-
-.txt-complementario:hover {
-  color: blue;
-  font-weight: bold;
+section .card-footer .text-body-secondary {
+  display: flex;
+  text-size-adjust: auto;
+  word-break: break-all;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  max-width: 100%;
+  white-space: normal;
 }
 
 .d-block {
@@ -345,13 +342,11 @@ h4 {
   align-items: center;
   margin-top: 100px;
 }
-
-.carousel {
+.carouselInicio .carousel {
   width: 560px;
   height: 315px;
 }
-
-.carousel-caption {
+.carouselInicio .carousel-caption {
   background-color: rgba(43, 40, 40, 0.603);
 }
 
@@ -380,6 +375,16 @@ h4 {
 a {
   text-decoration: none;
   color: aliceblue;
+}
+
+.txt-importante:hover {
+  color: red;
+  font-weight: bold;
+}
+
+.txt-complementario:hover {
+  color: blue;
+  font-weight: bold;
 }
 
 .manal {
