@@ -1,16 +1,19 @@
-@media (max-width: 768px) {
-    .manal 
-    {
-        flex-direction: column;
-        gap: 1rem;
+@media (max-width: 1250px) {
+    .manal {
+        flex-direction: column !important;
+        text-align: center;
         justify-content: center;
-        align-items: center;
+    }
+}
 
-
+@media (max-width: 768px) {
+    .manal {     
+        gap: 10px;
+        
         .fotoManal {
             max-width: 300px;
-            max-height: 400px;
-    
+            max-height: 200px;
+
         }
 
     }

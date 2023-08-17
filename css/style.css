@@ -3,15 +3,11 @@
 }
 .formulario .mb-3 {
   width: 100%;
-  max-width: 600px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.formulario .form-control {
-  width: auto;
 }
 .formulario .acercate {
   margin-top: 2%;
@@ -56,10 +52,20 @@ main p {
   margin-top: 20px;
   margin-bottom: 20px;
   text-shadow: black 0.1em 0.1em 0.2em;
+  text-align: justify;
 }
 
 h1, h2, li, h3, h4 {
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.card-text {
+  text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.text-body-secondary {
+  text-align: center;
 }
 
 header .imagenPortada img {
@@ -200,16 +206,20 @@ header .navbar-toggler {
   margin-top: 60px;
 }
 
+@media (max-width: 1250px) {
+  .manal {
+    flex-direction: column !important;
+    text-align: center;
+    justify-content: center;
+  }
+}
 @media (max-width: 768px) {
   .manal {
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
+    gap: 10px;
   }
   .manal .fotoManal {
     max-width: 300px;
-    max-height: 400px;
+    max-height: 200px;
   }
   .videosArgentina,
   .otero,
@@ -368,16 +378,16 @@ a {
   flex-direction: row-reverse;
   gap: 60px;
 }
-.manal .manal img {
+.manal .fotoManal {
   width: 400px;
   height: 300px;
   margin-right: 10px;
   border-radius: 10px;
-  width: auto;
 }
 .manal .parrafoManal {
   font-size: small;
   font-style: italic;
+  text-align: center;
 }
 
 .bluesArgentino {

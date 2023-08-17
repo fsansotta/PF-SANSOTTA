@@ -29,9 +29,19 @@ main {
         margin-top: 20px;
         margin-bottom: 20px;
         text-shadow: $sombreado;
+        text-align: $textoJustificado;
     }
 }
 
 h1, h2, li, h3, h4{
     text-shadow: $sombreado;
+}
+
+.card-text{
+    text-align: center;
+    text-shadow: $sombreado;
+}
+
+.text-body-secondary{
+    text-align: center;
 }
