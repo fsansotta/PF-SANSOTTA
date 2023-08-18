@@ -18,6 +18,13 @@
 .formulario .formulario iframe {
   margin-bottom: 100px;
 }
+.formulario .msjContacto {
+  margin-bottom: 100px;
+}
+.formulario .btn {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
 .formulario .mapa {
   margin-top: 45px;
   margin-left: 10px;
@@ -276,6 +283,7 @@ section .card-title {
   text-decoration: underline;
   font-weight: bold;
   color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 section .imagenesInicio {
   display: flex;
