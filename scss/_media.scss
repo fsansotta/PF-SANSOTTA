@@ -1,5 +1,6 @@
 @media (max-width: 1250px) {
-    .manal {
+    .manal 
+    .d-block{
         flex-direction: column !important;
         text-align: center;
         justify-content: center;
@@ -7,9 +8,10 @@
 }
 
 @media (max-width: 768px) {
-    .manal {     
+    .manal 
+    .d-block{
         gap: 10px;
-        
+
         .fotoManal {
             max-width: 300px;
             max-height: 200px;
@@ -25,7 +27,7 @@
     .esclavitud,
     .esclavitudDos,
     .mapa,
-    .form-control
+    .form-control 
     {
         max-width: 90%;
         max-height: 80%;
@@ -35,8 +37,7 @@
     }
 
     .imagenHistoria,
-    .imagenHistoriaDos 
-       {
+    .imagenHistoriaDos {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
