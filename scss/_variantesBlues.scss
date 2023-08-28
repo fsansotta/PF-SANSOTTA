@@ -21,3 +21,29 @@ h4 {
 .robertJohnsonImg {
   text-align: center;
 }
+
+
+.variantesSection {
+  display: flex;
+  width: 600px;
+  height: 450px;
+border-radius: 2px;
+margin: auto;
+
+  .variantesImg {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    text-align: justify;
+    opacity: 0.8;
+    transition: width 0.3s, opacity 0.3s, filter 0.3s;
+    border-radius: 5px;
+
+
+    &:hover {
+      width: 300px;
+      opacity: 1;
+      filter: contrast(120%);
+    }
+  }
+}

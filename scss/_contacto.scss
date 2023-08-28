@@ -1,17 +1,43 @@
+.bodyContacto {
+    background-image: url(../images/tienda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
 .formulario {
     text-align: center;
-    
+
+    .fondoFormulario {
+        background-color: rgba(58, 53, 53, 0.798);
+        width: 50%;
+        margin: auto;
+        border-radius: 10px;
+        box-shadow: 10px 5px 5px black;
+        margin-bottom: 30px;
+        
+    }
+
+
+
+
     .mb-3 {
-        width: 100%;
+        width: 30%;
         margin: 0 auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      }
-    
-        .acercate {
+    }
+
+    .acercate {
         margin-top: 2%;
+       
     }
 
     .formulario {
@@ -20,20 +46,22 @@
         iframe {
             margin-bottom: 100px;
         }
+
     }
 
     .msjContacto {
         margin-bottom: 100px;
     }
 
-   .btn{
-    margin-top: 30px;
-    margin-bottom: 60px;
-   }
+    .btn {
+        margin-top: 30px;
+        margin-bottom: 60px;
+    }
 
     .mapa {
         margin-top: 45px;
         margin-left: 10px;
+        margin-bottom: 30px;
     }
 
 }

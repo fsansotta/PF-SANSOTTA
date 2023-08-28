@@ -1,8 +1,25 @@
+.bodyContacto {
+  background-image: url(../images/tienda.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
 .formulario {
   text-align: center;
 }
+.formulario .fondoFormulario {
+  background-color: rgba(58, 53, 53, 0.798);
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px black;
+  margin-bottom: 30px;
+}
 .formulario .mb-3 {
-  width: 100%;
+  width: 30%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -28,6 +45,7 @@
 .formulario .mapa {
   margin-top: 45px;
   margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 * {
@@ -271,6 +289,28 @@ h4 {
 
 .robertJohnsonImg {
   text-align: center;
+}
+
+.variantesSection {
+  display: flex;
+  width: 600px;
+  height: 450px;
+  border-radius: 2px;
+  margin: auto;
+}
+.variantesSection .variantesImg {
+  width: 0;
+  flex-grow: 1;
+  object-fit: cover;
+  text-align: justify;
+  opacity: 0.8;
+  transition: width 0.3s, opacity 0.3s, filter 0.3s;
+  border-radius: 5px;
+}
+.variantesSection .variantesImg:hover {
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
 }
 
 section .card-group {
