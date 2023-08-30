@@ -8,6 +8,7 @@
 }
 
 @media (max-width: 768px) {
+    
     .manal 
     .d-block{
         gap: 10px;
@@ -37,11 +38,13 @@
     }
 
     .imagenHistoria,
-    .imagenHistoriaDos {
+    .imagenHistoriaDos
+    {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
         align-items: center;
     }
+
 
 }

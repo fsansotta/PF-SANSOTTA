@@ -66,6 +66,7 @@ body {
   font-size: small;
   font-style: italic;
   text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 main {
@@ -80,7 +81,7 @@ main p {
   text-align: justify;
 }
 
-h1, h2, li, h3, h4 {
+h1, h2, li, h3, h4, .textoFormulario {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
 
@@ -231,6 +232,54 @@ header .navbar-toggler {
   margin-top: 60px;
 }
 
+.tituloContainer {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+}
+.tituloContainer .parrafoContainer {
+  text-align: center;
+  font-family: sans-serif;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+  color: #e6e6e6;
+  letter-spacing: 5px;
+  margin: 0;
+  padding: 10px 10px 10px 30px;
+}
+
+.containerHistoria {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 100%;
+  height: auto;
+  background-color: black;
+  justify-items: flex-start;
+  text-align: center;
+}
+.containerHistoria .itemContainterHistoria {
+  width: 50%;
+  height: 50%;
+}
+.containerHistoria .itemContainterHistoria .parrafoContainerHistoria {
+  text-align: center;
+  font-size: small;
+  color: white;
+}
+.containerHistoria .itemContainterHistoria .imgHistoria {
+  width: 400px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-height: 100%;
+  box-shadow: 0px 0px 5px 1px black;
+  align-items: center;
+}
+
 @media (max-width: 1250px) {
   .manal .d-block {
     flex-direction: column !important;
@@ -267,12 +316,24 @@ header .navbar-toggler {
     align-items: center;
   }
 }
+.bodyVariantes {
+  background-image: url(../images/fondoVariantes.png);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .listaVariantes {
   margin-left: 20px;
 }
 
-h4 {
+h4, h2 {
   text-decoration: underline;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .varianteUno {
@@ -280,23 +341,70 @@ h4 {
   margin-bottom: 50px;
 }
 
-.robertJohnson {
-  width: 400px;
-  height: 300px;
-  text-align: center;
-  max-width: 100%;
+.contenedor1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-height: 100%;
+  height: auto;
 }
-
-.robertJohnsonImg {
+.contenedor1 .divisorio {
+  background-color: white;
+  width: 60px;
+  height: 20px;
+}
+.contenedor1 .contenedor2 {
+  height: auto;
+  gap: 20px;
+}
+.contenedor1 .img1 {
+  width: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-height: 100%;
+  height: 445px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-right: 100px;
+  transition: 1s;
+}
+.contenedor1 .img1:hover, .contenedor1 .img2:hover {
+  transform: scale(1.5);
+  height: 500px;
+  width: 500px;
+}
+.contenedor1 .img2 {
+  width: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-height: 100%;
+  height: 445px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-left: 100px;
+  transition: 1s;
+}
+.contenedor1 .parrafosVariantes1, .contenedor1 .parrafosVariantes2 {
+  font-size: small;
+  font-style: italic;
   text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  width: 350px;
+  margin-top: 5px;
+}
+.contenedor1 .parrafosVariantes1 .parrafosVariantes2, .contenedor1 .parrafosVariantes2 .parrafosVariantes2 {
+  margin-left: 200px;
 }
 
 .variantesSection {
   display: flex;
-  width: 600px;
-  height: 450px;
+  width: 60%;
+  height: 650px;
   border-radius: 2px;
   margin: auto;
+  box-shadow: 0px 0px 5px 1px black;
 }
 .variantesSection .variantesImg {
   width: 0;
@@ -308,9 +416,50 @@ h4 {
   border-radius: 5px;
 }
 .variantesSection .variantesImg:hover {
-  width: 300px;
+  width: 500px;
   opacity: 1;
   filter: contrast(120%);
+}
+
+.contenedoresVariantes {
+  background-color: rgba(58, 53, 53, 0.368);
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  position: relative;
+}
+
+.contenedoresVariantes::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/fondo\ variantes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.bodyIndex {
+  background-image: url(../images/fondoIndex.png);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section .card-group {
@@ -334,7 +483,7 @@ section .card-img-top {
   height: 300px;
   border-radius: 10px !important;
   max-width: 100%;
-  /* bject-fit: cover; */
+  object-fit: cover;
 }
 section .card-body p {
   margin-top: 20px;
@@ -361,29 +510,29 @@ section .card-footer .text-body-secondary {
 }
 
 .d-block {
-  width: 100%;
-  height: 900px;
+  width: 40%;
+  height: 80%;
   object-fit: cover;
   border-radius: 1%;
-  /*  width: 560px;
-   height: 315px; */
 }
 
 .carouselInicio {
+  margin: auto;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
   margin-left: 10px;
-  /*    {
-         width: 560px;
-         height: 315px;
-     } */
+  margin-right: 20px;
 }
 .carouselInicio .carousel {
   width: 100%;
-  height: auto;
+  height: 100%;
+}
+.carouselInicio .carouselExampleCaptions {
+  width: 100%;
 }
 .carouselInicio .carousel-caption {
   background-color: rgba(43, 40, 40, 0.603);
@@ -429,11 +578,150 @@ a {
   font-weight: bold;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
-
-.txt-complementario:hover {
+.txt-importante:hover .txt-complementario:hover {
   color: blue;
   font-weight: bold;
   text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.fondoBluesEnArgentina {
+  background-image: url(../images/bandera\ argentina.jpg);
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedorManal {
+  background-color: rgba(58, 53, 53, 0.368);
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  position: relative;
+}
+
+.contenedorManal::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/fondo\ manal.jpg);
+  max-width: 100%;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.contenedorPappo {
+  background-color: rgba(58, 53, 53, 0.368);
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  position: relative;
+}
+
+.contenedorPappo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/fondo\ pappo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.contenedorMemphis {
+  background-color: rgba(58, 53, 53, 0.368);
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  position: relative;
+}
+
+.contenedorMemphis::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/fondo\ memphis.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+.contenedorMississippi {
+  background-color: rgba(58, 53, 53, 0.368);
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-top: 2px;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
+  position: relative;
+}
+
+.contenedorMississippi::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/fondo\ mississippi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  z-index: -1;
 }
 
 .manal {
@@ -473,6 +761,7 @@ a {
   height: 315px;
   border-radius: 10px;
   object-fit: cover;
+  box-shadow: 0px 0px 5px 1px black;
 }
 
 div iframe {

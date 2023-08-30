@@ -1,3 +1,153 @@
+.fondoBluesEnArgentina{
+    background-image: url(../images/bandera\ argentina.jpg);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.contenedorManal {
+    background-color: rgba(58, 53, 53, 0.368);
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+}
+
+.contenedorManal::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/fondo\ manal.jpg);
+    max-width: 100%;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.contenedorPappo {
+    background-color: rgba(58, 53, 53, 0.368);
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+
+}
+
+.contenedorPappo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/fondo\ pappo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
+
+
+
+.contenedorMemphis {
+    background-color: rgba(58, 53, 53, 0.368);
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+
+}
+
+.contenedorMemphis::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/fondo\ memphis.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.contenedorMississippi {
+    background-color: rgba(58, 53, 53, 0.368);
+    width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    position: relative;
+}
+
+
+.contenedorMississippi::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/fondo\ mississippi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+
 .manal {
     display: flex;
     flex-direction: row-reverse;
@@ -29,6 +179,7 @@
     border-radius: 10px;
     width: auto;
     object-fit: cover;
+    
 }
 
 .parrafoArgentina {
@@ -41,6 +192,7 @@
     height: 315px;
     border-radius: 10px;
     object-fit: cover;
+    box-shadow: 0px 0px 5px 1px black;
 }
 
 div iframe {
