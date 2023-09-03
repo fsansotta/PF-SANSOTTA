@@ -11,11 +11,6 @@
 
 
 
-
-
-
-
-
 section {
     .card-group {
         margin-left: 50px;
@@ -79,9 +74,6 @@ section {
 
 
 
-
-
-
 .d-block {
 
     width: 40%;
@@ -96,14 +88,13 @@ section {
 
 .carouselInicio {
     margin: auto;
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 20%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-left: 10px;
-    margin-right: 20px;
+
 
     .carousel {
         width: 100%;
@@ -164,10 +155,61 @@ a {
     color: red;
     font-weight: bold;
     text-shadow: $sombreado;
+}
 
-    .txt-complementario:hover {
-        color: blue;
-        font-weight: bold;
-        text-shadow: $sombreado;
+.txt-complementario:hover {
+    color: blue;
+    font-weight: bold;
+    text-shadow: $sombreado;
+}
+
+
+.containerIndex {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+
+    .imgContainerIndex {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease;
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Fondo semi-transparente */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            /* Oculta inicialmente el overlay */
+            transition: opacity 0.3s ease;
+
+            .SubContainerIndex1:hover img  {
+                transform: scale(1.1); /* Escala la imagen cuando se realiza un hover */
+            }
+            
+            .SubContainerIndex1:hover .overlay {
+                opacity: 1; 
+
+
+
+        }
+
     }
+
+
+}
 }

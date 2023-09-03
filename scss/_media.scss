@@ -1,16 +1,38 @@
 @media (max-width: 1250px) {
-    .manal 
-    .d-block{
+
+    .manal,
+    .d-block
+    .imagenHistoria,
+    .imagenHistoriaDos,
+    .esclavitud    {
         flex-direction: column !important;
         text-align: center;
         justify-content: center;
+        align-items: center;
+       }
+
+
+    .containerIndex{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%; 
+        height: auto; 
+        margin: 10px;
+    
+        }
+
+        .imgContainerIndex {
+            max-width: 90%;
+            max-height: 80%;
+
+            
     }
 }
 
 @media (max-width: 768px) {
-    
-    .manal 
-    .d-block{
+
+    .manal,
+    .d-block {
         gap: 10px;
 
         .fotoManal {
@@ -18,18 +40,13 @@
             max-height: 200px;
 
         }
-
     }
-
 
     .videosArgentina,
     .otero,
     .crazyBlues,
-    .esclavitud,
-    .esclavitudDos,
     .mapa,
-    .form-control 
-    {
+    .form-control {
         max-width: 90%;
         max-height: 80%;
         justify-content: center;
@@ -38,13 +55,11 @@
     }
 
     .imagenHistoria,
-    .imagenHistoriaDos
-    {
+    .imagenHistoriaDos {
         flex-direction: column;
         gap: 1rem;
         justify-content: center;
         align-items: center;
     }
-
 
 }

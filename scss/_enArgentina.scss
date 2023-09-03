@@ -1,4 +1,4 @@
-.fondoBluesEnArgentina{
+.fondoBluesEnArgentina {
     background-image: url(../images/bandera\ argentina.jpg);
     position: absolute;
     background-position: center;
@@ -6,7 +6,6 @@
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 
 .contenedorManal {
@@ -80,7 +79,6 @@
 
 
 
-
 .contenedorMemphis {
     background-color: rgba(58, 53, 53, 0.368);
     width: 100%;
@@ -131,7 +129,6 @@
     position: relative;
 }
 
-
 .contenedorMississippi::before {
     content: "";
     position: absolute;
@@ -147,16 +144,16 @@
     z-index: -1;
 }
 
-
 .manal {
     display: flex;
-    flex-direction: row-reverse;
-    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
 
     .fotoManal {
-        width: 400px;
-        height: 300px;
-        margin-right: 10px;
+        width: 300px;
+        height: 200px;
         border-radius: 10px;
     }
 
@@ -169,7 +166,6 @@
 }
 
 
-
 .bluesArgentino {
     display: flex;
     flex-direction: row;
@@ -179,11 +175,8 @@
     border-radius: 10px;
     width: auto;
     object-fit: cover;
-    
-}
+    text-align: center;
 
-.parrafoArgentina {
-    margin-top: 60px;
 }
 
 
