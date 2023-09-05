@@ -1,35 +1,35 @@
 @media (max-width: 1250px) {
 
     .manal,
-    .d-block
+    .d-block,
     .imagenHistoria,
     .imagenHistoriaDos,
-    .esclavitud    {
+    .esclavitud {
         flex-direction: column !important;
         text-align: center;
         justify-content: center;
         align-items: center;
-       }
-
-
-    .containerIndex{
-        flex-direction: column;
-        justify-content: center;
-        max-width: 100%; 
-        height: auto; 
-        margin: 10px;
-    
-        }
-
-        .imgContainerIndex {
-            max-width: 90%;
-            max-height: 80%;
-
-            
     }
+
+    .esclavitud{
+      width: 400px;
+      height: 300px;
+    }
+
+    .imgContainerIndex {
+        height: 300px !important;
+        width: 200px !important;
+
+    }
+
 }
 
 @media (max-width: 768px) {
+    .esclavitud,
+    .esclavitudDos{
+        width: 300px;
+        height: 250px;
+      }
 
     .manal,
     .d-block {
@@ -62,4 +62,17 @@
         align-items: center;
     }
 
+    .containerIndex {
+        flex-direction: column !important;
+    }
+
+}
+
+
+@media (min-width: 1250px) {
+
+    .carouselInicio {
+        width: 50%;
+        height: 20%;
+    }
 }

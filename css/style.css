@@ -1,10 +1,10 @@
 .bodyContacto {
   background-image: url(../images/tienda.jpg);
+  position: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  height: auto;
+  background-attachment: fixed;
 }
 
 .formulario {
@@ -379,7 +379,8 @@ header .navbar-toggler {
 
 @media (max-width: 1250px) {
   .manal,
-  .d-block .imagenHistoria,
+  .d-block,
+  .imagenHistoria,
   .imagenHistoriaDos,
   .esclavitud {
     flex-direction: column !important;
@@ -387,19 +388,21 @@ header .navbar-toggler {
     justify-content: center;
     align-items: center;
   }
-  .containerIndex {
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
+  .esclavitud {
+    width: 400px;
+    height: 300px;
   }
   .imgContainerIndex {
-    max-width: 90%;
-    max-height: 80%;
+    height: 300px !important;
+    width: 200px !important;
   }
 }
 @media (max-width: 768px) {
+  .esclavitud,
+  .esclavitudDos {
+    width: 300px;
+    height: 250px;
+  }
   .manal,
   .d-block {
     gap: 10px;
@@ -426,6 +429,15 @@ header .navbar-toggler {
     gap: 1rem;
     justify-content: center;
     align-items: center;
+  }
+  .containerIndex {
+    flex-direction: column !important;
+  }
+}
+@media (min-width: 1250px) {
+  .carouselInicio {
+    width: 50%;
+    height: 20%;
   }
 }
 .bodyVariantes {
@@ -602,7 +614,7 @@ section .card-body p {
   color: white;
 }
 section .card-body {
-  background-color: #384155;
+  background-color: rgb(33, 37, 41);
 }
 section .card-footer {
   background-color: #BEBEBE;
@@ -630,8 +642,6 @@ section .card-footer .text-body-secondary {
 
 .carouselInicio {
   margin: auto;
-  width: 50%;
-  height: 20%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -697,25 +707,23 @@ a {
 
 .containerIndex {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  gap: 20px;
-  width: 1000px;
-  height: 800px;
-  margin: auto;
-  margin-top: 100px;
+  align-items: center;
+  gap: 160px;
+  margin-top: 200px;
   overflow: hidden;
-  text-align: center;
 }
 .containerIndex .imgContainerIndex {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: 0.5 ease;
+  height: 500px;
+  width: 300px;
+  transform: scale(var(--escala, 1));
+  transition: transform 0.1s;
+  border-radius: 5px;
 }
-.containerIndex .imgContainerIndex .imgContainerIndex:hover {
-  transform: scale(1.3);
-  filter: grayscale(0%);
-  background-color: red;
+.containerIndex .imgContainerIndex:hover {
+  --escala: 1.2;
+  cursor: pointer;
 }
 
 .fondoBluesEnArgentina {

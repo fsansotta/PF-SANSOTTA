@@ -1,28 +1,11 @@
 .fondoBluesEnArgentina {
     background-image: url(../images/bandera\ argentina.jpg);
-    position: absolute;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
+    @include fondo;
+   }
 
 
 .contenedorManal {
-    background-color: rgba(58, 53, 53, 0.368);
-    width: 100%;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 1px black;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    position: relative;
+    @include contenedoresEnArgentina
 }
 
 .contenedorManal::before {
@@ -44,20 +27,7 @@
 }
 
 .contenedorPappo {
-    background-color: rgba(58, 53, 53, 0.368);
-    width: 100%;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 1px black;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    position: relative;
+    @include contenedoresEnArgentina
 
 }
 
@@ -80,20 +50,7 @@
 
 
 .contenedorMemphis {
-    background-color: rgba(58, 53, 53, 0.368);
-    width: 100%;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 1px black;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    position: relative;
+    @include contenedoresEnArgentina
 
 }
 
@@ -113,20 +70,7 @@
 }
 
 .contenedorMississippi {
-    background-color: rgba(58, 53, 53, 0.368);
-    width: 100%;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0px 0px 5px 1px black;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-right: 20px;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    position: relative;
+    @include contenedoresEnArgentina
 }
 
 .contenedorMississippi::before {
